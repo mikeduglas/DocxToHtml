@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# Clarion 2.1.0.2447
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "Test", "Test.cwproj", "{F9820AEF-165E-43E9-BAFB-BA2D527EC1CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5CF7AD0-66A0-4596-B74F-62BDED2D0C1A}"
+	ProjectSection(SolutionItems) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9820AEF-165E-43E9-BAFB-BA2D527EC1CF}.Debug|Win32.Build.0 = Debug|Win32
+		{F9820AEF-165E-43E9-BAFB-BA2D527EC1CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9820AEF-165E-43E9-BAFB-BA2D527EC1CF}.Release|Win32.Build.0 = Release|Win32
+		{F9820AEF-165E-43E9-BAFB-BA2D527EC1CF}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+EndGlobal

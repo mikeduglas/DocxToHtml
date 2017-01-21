@@ -1,0 +1,39 @@
+!Generated .INC file (by the EasyCOM2INC v 2.14)
+!IDL filename: DocxToHtml.idl
+
+!*********** Interfaces ***********
+!IDispatch
+!IDocxToHtml
+!IUnknown
+!*********** End of Interfaces ***********
+
+!*********** Data types ***********
+!*********** End of Data types ***********
+
+
+!*********** interfaces ***********
+IID_IDocxToHtml                 GROUP
+data1                             LONG(5787EA05H)
+data2                             SHORT(800FH)
+data3                             SHORT(4A7DH)
+data4                             STRING('<0A9H><88H><0E5H><8BH><5EH><99H><4AH><0E4H>')
+                                END
+IDocxToHtml                     INTERFACE(IDispatch),COM,TYPE
+GetHtml                           PROCEDURE(BSTRING docxfile,*BSTRING pRetVal),HRESULT,RAW,PROC
+SaveHtml                          PROCEDURE(BSTRING docxfile,BSTRING htmlfile),HRESULT,RAW,PROC
+                                END
+
+!*********** Coclasses ***********
+!coclass DocxToHtml                                                                                          
+IID_DocxToHtml                  GROUP
+data1                             LONG(0C942DA77H)
+data2                             SHORT(0EAF6H)
+data3                             SHORT(43B0H)
+data4                             STRING('<81H><2DH><0F6H><0DAH><0D7H><55H><0ACH><41H>')
+                                END
+!DocxToHtml                      CLASS,TYPE
+!_Object                           &_Object
+!IDocxToHtml                       &IDocxToHtml
+!                                END
+DocxToHtml                      INTERFACE(IUnknown),COM,TYPE
+                                END
