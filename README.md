@@ -5,7 +5,7 @@ Docx-To-Html Converter based on [this article](https://www.codeproject.com/Artic
 ##Requirements
 Microsoft .NET 4.5.  
 
-**MS Word in not required!**
+**MS Word is not required!**
 
 ##How to run demo program
 Copy all dll files from \bin folder into demo folder.
