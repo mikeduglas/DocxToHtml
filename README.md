@@ -10,7 +10,7 @@ Copy all dll files from \bin folder into demo folder.
 
 ##How to build
 You must have free [EasyCOM2INC](http://www.ingasoftplus.com/ProductDetail.php?ProductID=24) installed to use base COM classes.
-YourApp.exe.manifest file must contain following child element inside <dependency> parent element:
+YourApp.exe.manifest file must contain following child element inside <dependency> parent element:  
     <dependentAssembly>
       <assemblyIdentity 
         type="win32" 
