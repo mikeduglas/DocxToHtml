@@ -24,11 +24,10 @@ YourApp.exe.manifest file must contain following child element inside parent `<d
 Also, Graham Dawson kindly provided a way without using COM stuff:  
 `
 		!in EVENT:OpenWindow  
-                myOLE = create(0,CREATE:ole)  
-                myOLE{PROP:ReportException} = True  
-                myOLE{prop:create} = 'mikeduglas.DocxToHtml.DocxToHtml'  
-  
+		myOLE = create(0,CREATE:ole)  
+		myOLE{PROP:ReportException} = True  
+		myOLE{prop:create} = 'mikeduglas.DocxToHtml.DocxToHtml'  
 		!call SaveHtml()  
-                myOLE{'SaveHtml(' & longpath(sDocxFile) & ',' & longpath(sHtmlFile) & ')'}  
+		myOLE{'SaveHtml(' & longpath(sDocxFile) & ',' & longpath(sHtmlFile) & ')'}  
 `  
 Pay attention this method requires a WINDOW to be opened.
